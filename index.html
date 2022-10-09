@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend developer, here you will find information about the projects I have done."
+    />
+    <meta
+      property="og:description"
+      content="Frontend developer, here you will find information about the projects I have done. "
+    />
+    <meta property="og:title" content="Matias Aratano | Frontend Developer" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="Yohanes Debebe | FullStack Developer"
+    />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Yohanes Debebe / FullStack Developer</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">YD</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Home</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">About</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <!-- <li class="navbar__link" data-ref="services">
+            <a href="#services">Services</a>
+          </li> -->
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        
+        <img class="home__profile" alt="picture profile" src="img/foto.jpg" />
+      </picture>
+      <div class="home__description">
+        <span class="home__title--primary">Hi!</span>
+        <h1 class="home__title">I'm Yohanes Debebe</h1>
+        <span class="home__title--secondary">FullStack Developer</span>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title"></h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <!-- <h2>I'm Yohanes Debebe, FullStack Developer</h2>
+            <p>
+              <b>Location:</b> Addis Ababa, Ethiopia. 
+            </p> -->
+            <!-- <p>
+              <b>Interests:</b> Coding, Design, Blockchain, Surf. 
+            </p> -->
+            <h2>
+              Hi, I'm Yohanes, a passionate self-motivated web developer. I'm proficient with AngularJs, React, NodeJs, Express.js, and MongoDB. I've used my creativity and problem-solving skills to design and implement websites for clients.
+            </h2>
+            <a
+              class="button--cta"
+              href="CV.pdf"
+              download="Yohanes Debebe CV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-file-download"></i>Download CV
+            </a>
+          </div>
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>My skills</h2>
+            </div>
+             <div class="skill__item">
+              <img src="img/html.png" alt="HTML icon"/>
+              <div class="skill__name">HTML</div>
+            </div> 
+            <div class="skill__item">
+              <img src="img/css.png" alt="CSS icon"/>
+              <div class="skill__name">CSS</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/bootstrap.jpeg" alt="Bootstrap icon"/>
+              <div class="skill__name">Bootstrap</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/sass.png" alt="SASS icon"/>
+              <div class="skill__name">SASS</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js"></i>
+              <div class="skill__name">Javascript</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/react.png" alt="React icon"/>
+              <div class="skill__name">React</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/node.webp" alt="Node icon"/>
+              <div class="skill__name">NodeJs</div>
+            </div>
+         
+            <div class="skill__item">
+              <img src="img/git.png" alt="Git icon"/>
+              <div class="skill__name">Git</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-github" id="git"></i>
+              <div class="skill__name">GitHub</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/figma.png" alt="Figma icon"/>
+              <div class="skill__name">Figma</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/mongo.png" alt="Mongo icon"/>
+              <div class="skill__name">MongoDB</div>
+            </div>
+            <div class="skill__item">
+              <img src="img/mysql.png" alt="MySQL icon"/>
+              <div class="skill__name">MySQL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="section__title">Portfolio</h2>
+        <h3 class="section__subtitle">Here you can see some projects I have worked on</h3>
+        <div class="portfolio__grid">
+          
+      
+          
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/ems.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Employee Management System</h3>
+              <p class="portfolio__description--text">
+                  a system that manages employees information in a given company
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://github.com/yohanes44/EmployeeManagementSystem"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Source Code
+                </a>
+             
+              </div>
+            </div>
+          </div> 
+
+
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/rock.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Rock Paper Scissor Game</h3>
+              <p class="portfolio__description--text">
+                  simple Rock Paper Scissor Game
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://github.com/yohanes44/ROCK-PAPER-SCISSORS...in-Console"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Source Code
+                </a>
+
+                <a
+                class="button"
+                href="https://papaya-pegasus-af5a28.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe-americas"></i> Live Site
+              </a>
+             
+              </div>
+            </div>
+          </div> 
+
+
+          
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/library.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Library</h3>
+              <p class="portfolio__description--text">
+                Library system to add, rename, and delete books
+              </p>
+              <div class="buttons__container">
+                
+                <a
+                  class="button"
+                  href="https://github.com/yohanes44/Library"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Source Code
+                </a>
+
+                <a
+                class="button"
+                href="https://benevolent-nougat-54a1c7.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe-americas"></i> Live Site
+              </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/store.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Store API</h3>
+              <p class="portfolio__description--text">
+                Rest Api which help users find, delete and edit info of stuff 
+              </p>
+              <div class="buttons__container">
+                
+                <a
+                  class="button"
+                  href="https://github.com/yohanes44/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Source Code
+                </a>
+         
+              </div>
+            </div>
+          </div>
+          
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/eitch.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Etch-a-Sketch</h3>
+              <p class="portfolio__description--text">
+                drawing web app
+              </p>
+              <div class="buttons__container">
+                
+                <a
+                  class="button"
+                  href="https://github.com/yohanes44/Etch-a-Sketch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github"></i> Source Code
+                </a>
+
+                <a
+                class="button"
+                href="https://magenta-hummingbird-83f5f3.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-globe-americas"></i> Live Site
+              </a>
+              </div>
+            </div>
+          </div>
+
+
+              
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="img/blog.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Blog API</h3>
+              <p class="portfolio__description--text">
+                Blog API
+              </p>
+              <div class="buttons__container">
+                <a
+                  class="button"
+                  href="https://github.com/yohanes44/MERN-blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-globe-americas"></i> Source Code
+                </a>
+             
+              </div>
+            </div>
+          </div> 
+          
+       
+          </div>
+         </div>
+      </div>
+    </section>
+
+    <!-- <section id="services">
+      <div class="container">
+        <h2 class="section__title">Services</h2>
+        <h3 class="section__subtitle">Services I offer to my clients</h3>
+        <div class="services__grid">
+          <div class="services__item">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Fully Responsive</h3>
+            <p>
+              Your site will display properly on any device, including desktop
+              computers, tablets and mobile phones.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>Creative Design</h3>
+            <p>
+              A good and attractive web design helps you keep your leads on your
+              site, which is the digital face of your business.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-code"></i>
+            <h3>Development</h3>
+            <p>
+              I know the importance of web design and can help you create a
+              website you’ll love.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-thumbs-up"></i>
+            <h3>Social Media Integration</h3>
+            <p>
+              There are a lot of social platforms out there, and you should
+              promote your presence on them on your website.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-tachometer-alt"></i>
+            <h3>Performance</h3>
+            <p>
+              Retaining users is crucial to improving conversions.
+              High-performing sites engage and retain users.
+            </p>
+          </div>
+          <div class="services__item">
+            <i class="fas fa-crosshairs"></i>
+            <h3>SEO</h3>
+            <p>
+              I will optimize your site with intelligent Search Engine
+              Optimization strategy to generate leads.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <h3 class="section__subtitle">
+          These are my social networks, contact me if you want us to work together
+        </h3>
+        <div class="contact__grid">
+          <a
+            href="mailto:yohanesdebebe44@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+
+              <i class="far fa-envelope"></i>
+              
+            </div>
+          </a>
+          <a
+            href="https://github.com/yohanes44"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-github"></i>
+              
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/yohanes-debebe-76024a209/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="contact__item">
+              <i class="fab fa-linkedin-in"></i>
+            
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright © 2021. <a href="#">Yohanes Debebe</a> <br />
+          All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+</html>
